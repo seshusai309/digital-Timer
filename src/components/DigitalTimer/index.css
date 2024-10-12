@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.container {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(207, 252, 241, 1) 55%
+  );
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin: 0px 10px 0px 10px;
+  height: 100vh;
+}
+
+.displayTimer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlAndRest {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.controlImg {
+  height: 50px;
+  width: 50px;
+}
+
+.indicontrol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twoCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incrementAndDecrement {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+}
+
+.cardRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayTimerCore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.hell {
+  text-align: center;
+}
+
+.sub-comtainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.IncrementDicrementCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  background: rgb(0, 217, 245);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 217, 245, 1) 13%,
+    rgba(122, 227, 119, 1) 83%
+  );
+  border-radius: 7px;
+  font-size: 27px;
+  font-weight: 600;
+  color: black;
+}
+
+.controlbtns {
+  font-size: 30px;
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.controlImgbtn1 {
+  background-color: transparent;
+  cursor: pointer;
+  border-width: 0;
+}
+
+.displayHead {
+  color: lightgreen;
+  font-size: 30px;
+  font-weight: 800;
+}
